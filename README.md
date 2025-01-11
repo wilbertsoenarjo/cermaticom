@@ -7,10 +7,12 @@ This project is a test automation framework built using Cypress, TypeScript, and
 ### Installation and Local Run
 
 1. Clone this repository
+```
  git clone <repository_url>
-2. Navigate to the project directory
+ ```
+1. Navigate to the project directory
  cd <project_directory>
-3. Install dependencies
+1. Install dependencies
  npm install
-4. Start the Cypress Test Runner
+1. Start the Cypress Test Runner
  npx cypress open
