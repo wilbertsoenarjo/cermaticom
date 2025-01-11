@@ -27,15 +27,17 @@ npx cypress open
 ├── cypress
 │   ├── e2e               # Test folder (cy.ts format)
 │   ├── utils             # Utility folder
-        ├── helpers.ts    # Contains global helpers
+│      ├── helpers.ts    # Contains global helpers
 │       ├── pages.ts      # Contains POM classes
 │   ├── support           # Cypress support folder
 │       ├── commands.ts   # Contains custom Cypress commands
 │       ├── index.ts      # Contains global configurations for custom commands
-        ├── e2e.ts        # Contains global overrides
-    ├── tsconfig.json     # TypeScript configuration
+│       ├── e2e.ts        # Contains global overrides
+│   ├── tsconfig.json     # TypeScript configuration
 ├── cypress.config.ts     # Cypress configuration
 ├── README.md             # README
 ├── node_modules          # Contains node_modules
 ├── package-lock.json     # Dependencies and scripts
 ├── package.json          # Dependencies and scripts
+
+```plaintext ├── cypress │ ├── e2e # Test folder (cy.ts format) │ ├── utils # Utility folder │ ├── helpers.ts # Contains global helpers │ ├── pages.ts # Contains POM classes │ ├── support # Cypress support folder │ ├── commands.ts # Contains custom Cypress commands │ ├── index.ts # Contains global configurations for custom commands │ ├── e2e.ts # Contains global overrides │ ├── tsconfig.json # TypeScript configuration ├── cypress.config.ts # Cypress configuration ├── README.md # README ├── node_modules # Contains node_modules ├── package-lock.json # Dependencies and scripts ├── package.json # Dependencies and scripts ```
